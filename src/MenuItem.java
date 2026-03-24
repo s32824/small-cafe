@@ -1,4 +1,5 @@
 import java.util.Objects;
+
 public class MenuItem {
     private String code;
     private String name;
