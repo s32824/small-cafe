@@ -19,9 +19,11 @@ public class Main {
         System.out.println("Global products created: " + MenuItem.getProductCount());
 
         MenuItem espressoCopy = new MenuItem("C-01", "Espresso duplicate", 9.0, "coffee");
+
         System.out.println("Are the products equal? " + m1.equals(espressoCopy));
 
         order.markAsPaid();
+
         System.out.println(order);
     }
 }
